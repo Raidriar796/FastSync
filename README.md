@@ -2,7 +2,7 @@
 
 A [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader) mod for [Resonite](https://resonite.com/) that improves compression speed for sync messages.
 
-Sync messages by default use lz4 with the high compression mode. This mod simply disables the high compression mode, resulting in significantly faster compression with a slight increase in outbound traffic.
+Sync messages by default use lz4 with the high compression mode. This mod simply disables the high compression mode, resulting in 5-10x faster compression speeds with a 1-5% increase in sync message size. Your mileage may vary.
 
 ## Requirements
 - [ResoniteModLoader](https://github.com/resonite-modding-group/ResoniteModLoader)
